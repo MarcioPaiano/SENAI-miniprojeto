@@ -49,23 +49,27 @@ O fluxo de análise foi dividido em onze requisitos funcionais.
 RF01 – Criação do Dataset
 Geração de um dataset sintético de vendas.
 Inserção de dados propositalmente inconsistentes.
+
 RF02 – Inspeção dos Dados
 Visualização das primeiras linhas.
 Informações do DataFrame.
 Estatísticas descritivas.
 Identificação de valores ausentes.
+
 RF03 – Limpeza dos Dados
 Remoção de datas inválidas.
 Conversão da coluna de datas.
 Remoção de espaços extras.
 Tratamento de valores nulos.
 Remoção de registros duplicados.
+
 RF04 – Tratamento de Outliers
 Foram geradas duas versões do dataset:
 
 v1: dados limpos mantendo os outliers;
 v2: dados limpos com tratamento dos outliers utilizando o método IQR.
 A versão escolhida para utilização em data/final/ foi a v2, pois apresenta dados mais consistentes para análises posteriores.
+A versão v2 foi escolhida porque, além da limpeza de valores nulos, datas inválidas e espaços extras, os outliers das colunas quantidade e receita_total foram detectados pelo método do Intervalo Interquartil (IQR) e removidos antes da etapa final de análise. Isso reduz a influência de valores extremos nas análises estatísticas e em futuros modelos de aprendizado de máquina.
 
 RF05 – Criação de Colunas Derivadas
 Foram criadas as colunas:
@@ -75,6 +79,7 @@ mes
 trimestre
 ano
 faixa_receita_item
+
 RF06 – Métricas Agregadas
 Foram calculadas métricas por:
 
@@ -82,6 +87,7 @@ mês
 produto
 categoria
 região
+
 RF07 – Segmentação de Clientes
 Os clientes foram classificados em:
 
@@ -106,6 +112,7 @@ Foram gerados gráficos em PNG utilizando Matplotlib e Seaborn.
 Receita por mês
 Top 5 produtos
 Distribuição da receita por região
+
 RF10 – Organização do Código
 Todo o projeto foi estruturado em funções reutilizáveis, contendo:
 
@@ -113,6 +120,7 @@ parâmetros
 retorno
 docstrings
 funções lambda
+
 RF11 – Exportação dos Resultados
 Os resultados foram exportados para:
 
