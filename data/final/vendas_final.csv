@@ -1,4 +1,4 @@
-id,data,cliente,produto,categoria,regiao,quantidade,preco,receita_total,mes,trimestre,ano,faixa_receita_item
+﻿id,data,cliente,produto,categoria,regiao,quantidade,preco,receita_total,mes,trimestre,ano,faixa_receita_item
 1,2024-02-27,Cliente_001,Mouse,Periféricos,Nordeste,4.0,120.0,480.0,2,Q1,2024,Baixo Valor
 2,2024-03-12,Cliente_024,Smartphone,Celulares,Sul,9.0,2200.0,19800.0,3,Q1,2024,Alto Valor
 3,2024-10-29,Cliente_014,Notebook,Computadores,Sul,1.0,3500.0,3500.0,10,Q4,2024,Médio Valor
