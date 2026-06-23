@@ -183,7 +183,7 @@ Três gráficos em formato PNG.
 👨‍💻 Autor
 Marcio Paiano de Souza
 
-Projeto desenvolvido para a disciplina de Análise Exploratória de Dados com Python.
+Projeto desenvolvido para a disciplina técnica da formação SCTEC em Fundamentos de Dados, Programação e Análise Preditiva com Python.
 
 🎥 Vídeo de demonstração
 Inserir aqui o link do vídeo hospedado no Google Drive ou YouTube.
